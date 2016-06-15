@@ -16,7 +16,7 @@ body {
 }
 
 div {
-  border-style: none;
+  border-style: dashed;
   border-width: 2px;
   border-color: #888;
 }
