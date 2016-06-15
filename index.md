@@ -12,7 +12,7 @@ layout: default
 
   <article>
 
-  <a href="{{ post.url }}">{{ post.title }} {{ post.date }}</a>
+  <a href="{{ post.url }}">{{ post.title }} {{ post.date | date "%c" }}</a>
 
   {{ post.excerpt }}
 
