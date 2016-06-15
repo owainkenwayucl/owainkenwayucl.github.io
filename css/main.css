@@ -68,13 +68,18 @@ a:hover {
   margin-right: auto;
 }
 
+.sideimage {
+  width: 100%;
+  height: auto;
+}
+
 #sidebar {
   float: right;
-  width: 136px;
+  width: 15%;
   min-height: 100%;
 }
 
 #main {
-  width:100%;
+  width:85%;
   min-height: 100%;
 }
