@@ -95,6 +95,10 @@ a:hover {
   border-color: black;
 }
 
+.sidebarcontent {
+  margin: 20px;
+}
+
 .social {
   text-align: right;
   margin: 20px;
