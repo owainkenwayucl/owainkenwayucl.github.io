@@ -95,6 +95,10 @@ a:hover {
   border-color: black;
 }
 
+.sidebartitle {
+  margin: 20px;
+}
+
 .sidebarcontent {
   margin: 20px;
 }
