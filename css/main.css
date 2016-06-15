@@ -17,7 +17,7 @@ body {
 
 div {
   border-style: dashed;
-  border-width: 2px;
+  border-width: 0px;
   border-color: #888; 
 }
 
@@ -88,12 +88,16 @@ a:hover {
 .sideimage {
   width: 100%;
   height: auto;
+  
 }
 
 #sidebar {
   float: right;
   width: 15%;
   min-height: 100%;
+  border: 1px;
+  border-style: solid;
+  border-color: 1px;
 }
 
 #main {
