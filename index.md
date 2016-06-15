@@ -10,8 +10,10 @@ layout: home
 
   <article>
 
-  <a href="{{ post.url }}">{{ post.title }} {{ post.date | date: "%A, %b %d" }}</a>
-
+  <a href="{{ post.url }}">{{ post.title }}</a>
+  <div class="date">
+  <p>{{ post.date | date: "%A, %b %d" }}</p>
+  </div>
   {{ post.excerpt }}
 
   <a href="{{ post.url }}">Read more...</a>
