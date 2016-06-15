@@ -1,7 +1,7 @@
 ---
 title: Home
 short: Home
-layout: default
+layout: home
 ---
 
 <div id="blog">
