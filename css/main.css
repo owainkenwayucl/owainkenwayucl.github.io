@@ -1,5 +1,8 @@
 html {
   font-size: 100%;
+  border-style: dotted;
+  border-width: 2px;
+  border-color: #888;
 }
 
 body {
@@ -12,7 +15,9 @@ body {
 article {
   border-width: 1px;
   border-color: #333;
+  border-style: dashed;
   margin: 20px;
+
 }
 
 
