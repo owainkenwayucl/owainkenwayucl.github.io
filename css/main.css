@@ -45,4 +45,12 @@ article {
   color: #888;
 }
 
+#sidebar {
+  float: right;
+  width: 250px;
+  min-height: 100%;
+}
 
+#main {
+  float:left;
+}
