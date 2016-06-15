@@ -10,12 +10,15 @@ layout: default
 
   {% for post in site.posts %}
 
+  <article>
+
   <a href="{{ post.url }}">{{ post.title }} {{ post.date }}</a>
 
   {{ post.excerpt }}
 
   <a href="{{ post.url }}">Read more...</a>
   
+  </article>
 
   {% endfor %}
 
