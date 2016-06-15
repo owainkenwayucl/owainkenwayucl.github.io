@@ -16,8 +16,8 @@ body {
 }
 
 div {
-  border-style: solid;
-  border-width: 0px;
+  border-style: dashed;
+  border-width: 2px;
   border-color: #888; 
 }
 
