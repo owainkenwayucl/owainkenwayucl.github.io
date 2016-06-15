@@ -54,8 +54,12 @@ a:hover {
   background-image: url("/images/headersharp.png");
   background-size: 100%;
   background-position: center;
-  margin: 30px
+  
 
+}
+
+.titlep {
+  margin: 30px
 }
 
 .subhead {
