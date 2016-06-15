@@ -47,10 +47,12 @@ article {
 
 #sidebar {
   float: right;
-  width: 250px;
+  width: 136px;
   min-height: 100%;
 }
 
 #main {
   float:left;
+  width:100%;
+  min-height: 100%;
 }
