@@ -19,7 +19,13 @@ article {
   font-weight: bold;
 }
 
+.subhead {
+  font-size: 14pt;
+  font-weight: bold;
+}
+
 .date {
   color: #888;
 }
+
 
