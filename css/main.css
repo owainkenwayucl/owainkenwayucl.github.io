@@ -76,6 +76,8 @@ a:hover {
 
 .date {
   color: #888;
+  text-align: right;
+  margin: 20px;
 }
 
 .scaledimage {
@@ -91,6 +93,11 @@ a:hover {
   border-width: 0px 0px 1px 0px;
   border-style: solid;
   border-color: black;
+}
+
+.social {
+  text-align: right
+  margin: 20px;
 }
 
 #sidebar {
