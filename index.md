@@ -1,12 +1,10 @@
 ---
-title: Dr Owain Kenway
+title: Home
 short: Home
 layout: default
 ---
 
-**Dr Owain Kenway's Blog**
-
-<div>
+<div id="blog">
 
   {% for post in site.posts %}
 
