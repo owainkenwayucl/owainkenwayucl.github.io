@@ -4,6 +4,15 @@
   color: #AAA;
 }
 
+.code {
+  color: #AAA;
+}
+
+/* line numbers */
+.l {
+  color: #555;
+}
+
 /* comment */
 .c {
   color: #888;
