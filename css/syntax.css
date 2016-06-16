@@ -1,0 +1,60 @@
+
+.highlight {
+  background-color: #000;
+  color: #AAA;
+}
+
+/* comment */
+.c {
+  color: #888;
+}
+
+/* function? */
+.k {
+  color: red;
+}
+
+/* brackets () */
+.p {
+  color: orange;
+}
+
+/* argument? */
+.n {
+  color: blue;
+}
+
+/* string */
+.s {
+  color: yellow;
+}
+
+/* operator */
+.o {
+  color: purple;
+}
+
+/* import? */
+.kn {
+  color: green;
+}
+
+/* thing to import */
+.nn {
+  color: #0A0;
+}
+
+/* calling a function */
+.nb {
+  color: #A00;
+}
+
+/* number? */
+.mi {
+  color: #00A;
+} 
+
+/* in etc. */
+.ow { 
+  color: #0AA;
+}
