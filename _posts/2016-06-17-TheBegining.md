@@ -7,7 +7,7 @@ Since I've started being put in the position of some responsibility here within 
 
 ![Me describing how big HPC is.](/images/meee.png)
 
-Now Jekyll is a tool that comes with very little default styling, so of a course I am having to do everything from scratch, and so this place looks like a bit of a mess while I sort things out (I haven't really touched CSS in about ten years).  I've got a test page over [here](/2016/06/17/Scratch.html) which will be constantly filled with gibberish related to whatever I'm working.
+Now Jekyll is a tool that comes with very little default styling, so of a course I am having to do everything from scratch, and so this place looks like a bit of a mess while I sort things out (I haven't really touched CSS in about ten years).  I've got a test page over [here](/scratch.html) which will be constantly filled with gibberish related to whatever I'm working.
 
 So who am I?
 
