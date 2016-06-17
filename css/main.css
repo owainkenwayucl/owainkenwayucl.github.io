@@ -23,10 +23,12 @@ div {
 
 article {
   border-width: 1px;
-  border-color: #333;
-  border-style: none; 
+  border-color: #CCC;
+  border-style: solid; 
   margin: 20px;
-
+  padding: 0px 20px 20px 20px;
+  box-shadow: 2px 2px 5px #444;
+  background-color: #fff;
 }
 
 p {
@@ -65,7 +67,8 @@ a:hover {
   background-position: center;
   border-style: solid;
   border-width: 1px;
-  border-color: #000;
+  border-color: #CCC;
+  box-shadow: 2px 2px 5px #444;
 
 }
 
@@ -97,7 +100,7 @@ a:hover {
   height: auto;
   border-width: 0px 0px 1px 0px;
   border-style: solid;
-  border-color: black;
+  border-color: #CCC;
 }
 
 .sidebartitle {
@@ -119,7 +122,9 @@ a:hover {
   min-height: 100%;
   border-width: 0px 1px 1px 1px;
   border-style: solid;
-  border-color: #000;
+  border-color: #CCC;
+  box-shadow: 2px 2px 5px #444;
+
 }
 
 #main {
