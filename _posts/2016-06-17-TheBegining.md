@@ -3,7 +3,7 @@ layout: post
 title: Introduction
 ---
 
-Since I've been put in the position of some responsibility here within Research IT Services at UCL, I've decided that it's sensible to start having a public, semi-professional blog where I can talk about some of the things that we (or more specifically me) are doing here at UCL to enable our researchers to use computers to generate science, as well as posting long form about various things vaguely or not at all related.  I've had a [twitter account](https://twitter.com/owainkenway) for a while, but UCL doesn't really have a recommended blogging platform for individual staff, so a colleague suggested I try using Jekyll with Github pages and so here we are.
+Since I've started being put in the position of some responsibility here within Research IT Services at UCL, I've decided that it's sensible to start having a public, semi-professional blog where I can talk about some of the things that we (or more specifically me) are doing here at UCL to enable our researchers to use computers to generate science, as well as posting long form about various things vaguely or not at all related.  I've had a [twitter account](https://twitter.com/owainkenway) for a while, but UCL doesn't really have a recommended blogging platform for individual staff, so a colleague suggested I try using Jekyll with Github pages and so here we are.
 
 ![Me describing how big HPC is.](/images/meee.png)
 
