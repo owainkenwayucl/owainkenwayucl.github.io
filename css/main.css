@@ -69,10 +69,9 @@ a:hover {
   background-size: 100%;
   background-position: center;
   border-style: solid;
-  border-width: 1px;
-  border-color: #CCC;
+  margin: 0px;
+  padding: 10px;
   box-shadow: 2px 2px 5px #444;
-
 }
 
 .titlep {
@@ -102,9 +101,6 @@ a:hover {
   max-width: 100%;
   width: 100%;
   height: auto;
-  border-width: 0px 0px 1px 0px;
-  border-style: solid;
-  border-color: #CCC;
 }
 
 .sidebartitle {
@@ -124,9 +120,6 @@ a:hover {
   float: right;
   width: 15%;
   min-height: 100%;
-  border-width: 0px 1px 1px 1px;
-  border-style: solid;
-  border-color: #CCC;
   box-shadow: 2px 2px 5px #444;
   background-color: #fff;
 }
