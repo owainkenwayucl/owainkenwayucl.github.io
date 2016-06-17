@@ -36,18 +36,21 @@ p {
 }
 
 img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a:link {
-  color: #555;
+  color: #aaba67;
   text-decoration: none;
   
 }
 
 a:visited {
-  color: #555;
+  color: #aaba67;
   text-decoration: none;
   
 }
@@ -124,7 +127,7 @@ a:hover {
   border-style: solid;
   border-color: #CCC;
   box-shadow: 2px 2px 5px #444;
-
+  background-color: #fff;
 }
 
 #main {
