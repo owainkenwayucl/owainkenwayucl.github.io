@@ -33,6 +33,11 @@ p {
   margin: 30px 0px;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 a:link {
   color: #555;
   text-decoration: none;
