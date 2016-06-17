@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Introduction
 ---
@@ -15,7 +15,7 @@ Well I am the Research Computing Application and Support team leader at UCL, whi
 
 I have particular expertise in Fortran/MPI programming and molecular dynamics, Linux and scripting.
 
-Outside of work I like playing fretted musical instruments (guitar, mandolin, banjo), playing video games (e.g. Guild Wars 2), collecting weird toys (usually Lego, sci-fi or old car related) and tinkering with ancient computers.  I have a strong interest in computer history and am a massive fan of the CGI Star Wars Clone Wars and Rebels series, country music, rock and metal.  I'm interested in weird, preferably obsolete, programming languages.
+Outside of work I like playing fretted musical instruments (guitar, mandolin, banjo), playing video games (e.g. Guild Wars 2), collecting weird toys (usually Lego, sci-fi or old car related) and tinkering with ancient computers.  I have a strong interest in computer history and am a massive fan of the CGI Star Wars Clone Wars and Rebels series, country music, rock and metal.  I'm interested in weird, preferrably obsolete, programming languages.
 
 ![My pocket computer.](/images/sharp.png)
 
