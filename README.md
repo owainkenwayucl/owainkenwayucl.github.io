@@ -2,3 +2,5 @@
 My Github pages site
 
 I'm working on this and learning Jekyll as I go.
+
+Re-learning CSS is fun.
