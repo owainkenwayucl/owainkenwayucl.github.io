@@ -9,9 +9,9 @@ Since I've been put in the position of some responsibility here within Research 
 
 Now Jekyll is a tool that comes with very little default styling, so of a course I am having to do everything from scratch, and so this place looks like a bit of a mess while I sort things out (I haven't really touched CSS in about ten years).  I've got a test page over [here](/scratch.html) which will be constantly filled with gibberish related to whatever I'm working.
 
-##So who am I?
+**So who am I?**
 
-Well I am the Research Computing Application and Support team leader at UCL, which means I am in charge of the team that looks after users and applications on the Research Computing (HPC/HTC) services at UCL.  We are also responsible for a lot of design work and creating the user facing parts of the software stack on these resources.  I have a BSc in Computational Physics from Edinburgh, a masters in HPC from EPCC in Edinburgh and a PhD in Chemistry from UCL.
+Well I am the Research Computing Applications and Support team leader at UCL, which means I am in charge of the team that looks after users and applications on the Research Computing (HPC/HTC) services at UCL.  We are also responsible for a lot of design work and creating the user facing parts of the software stack on these resources.  I have a BSc in Computational Physics from Edinburgh, a masters in HPC from EPCC in Edinburgh and a PhD in Chemistry from UCL.
 
 I have particular expertise in Fortran/MPI programming and molecular dynamics, Linux and scripting.
 
