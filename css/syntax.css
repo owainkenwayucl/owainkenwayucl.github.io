@@ -1,70 +1,71 @@
 
 .highlight {
-  background-color: #000;
-  color: #AAA;
+  background-color: #272822;
+  color: #f8f8f2;
   font-size: 10pt;
 }
 
 .code {
-  color: #AAA;
+  color: #f8f8f2;
 }
 
 /* line numbers */
 .l {
-  color: #555;
+  color: #90908a;
+  background-color: #3c3d37;
 }
 
 /* comment */
 .c {
-  color: #888;
+  color: #75715e;
 }
 
 /* function? */
 .k {
-  color: red;
+  color: #66d9ef;
 }
 
 /* brackets () */
 .p {
-  color: orange;
+  color: #f92672;
 }
 
 /* argument? */
 .n {
-  color: blue;
+  color: #f8f8f0;
 }
 
 /* string */
 .s {
-  color: yellow;
+  color: #fc7c21;
 }
 
 /* operator */
 .o {
-  color: purple;
+  color: #f92672;
 }
 
 /* import? */
 .kn {
-  color: green;
+  color: #a5e22e;
 }
 
 /* thing to import */
 .nn {
-  color: #0A0;
+  color: #f8f8f2;
 }
 
 /* calling a function */
 .nb {
-  color: #A00;
+  color: #f92672;
 }
 
 /* number? */
 .mi {
-  color: #00A;
+  color: #8f7ee2;
 } 
 
 /* in etc. */
 .ow { 
-  color: #0AA;
+  color: #2ac1a3;
 }
