@@ -22,3 +22,11 @@ set .scm=c:\devel\gambit\gsi.exe
 ```
 
 **Known good:** `gc30-dj.zip 3120e5ddf8b4434fcc3c5f0b75f162d55d01eb649999298fe6f9ca82a8ec26bd` *[Virustotal](https://www.virustotal.com/en/file/3120e5ddf8b4434fcc3c5f0b75f162d55d01eb649999298fe6f9ca82a8ec26bd/analysis/1501671659/)*
+
+## UCB Logo
+
+Version 5.3 of the UCB Logo interpreter for DOS is available from [the developer's website](https://people.eecs.berkeley.edu/~bh/logo.html).  The double self-extracting .EXE/.ZIP file actually contains version 5.3 for 286 protected mode, and version 3.6 for older machines.  I found that 5.3 for 286 works fine on real hardware under FreeDOS but crashes on DOSBox.  It also includes a copy of the [JOVE text editor](https://en.wikipedia.org/wiki/JOVE), a bunch of examples and the source code, all in just over a megabyte meaning it fits on an HD 3.5" floppy.
+
+You need to set a bunch of environment variables to get it to work outside of its own directory but these are explained in the README file.
+
+**Known good:** `blogo.exe 5016ea9530e9645a67360945c3408083c01970a55ea83f5ee3c4691af70e426d` *[Virustotal](https://www.virustotal.com/#/file/5016ea9530e9645a67360945c3408083c01970a55ea83f5ee3c4691af70e426d/detection)*
