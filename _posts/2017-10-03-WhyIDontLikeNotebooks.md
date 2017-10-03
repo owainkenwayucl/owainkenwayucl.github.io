@@ -7,7 +7,7 @@ We’ve had a number of tickets recently asking about running [Jupyter Notebooks
 
 Because I like having the last word, I’m going to present James’ arguments first.  
 
-James’ first argument is that it’s a great tool for exploring with.  I agree, but it’s not the only tool. Python, like many languages, comes with a [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop).  Traditionally, that has been the tool for exploring things with.  It is no worse than the Notebook, particularly if you install an enhanced one like [iPython](https://ipython.org/install.html) with tab completion and all sorts of goodies.  If you install the QT version of iPython, you can even have all the mixed text/graphics output you get in a notebook.  But better than a notebook, the state of the REPL is obvious to the user (more on this later) and the steps the user has taken are documented.
+James’ first argument is that it’s a great tool for exploring with.  I agree, but it’s not the only tool. Python, like many languages, comes with a [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop).  Traditionally, that has been the tool for exploring things with.  It is no worse than the Notebook, particularly if you install an enhanced one like [IPython](https://ipython.org/install.html) with tab completion and all sorts of goodies.  If you install the QT version of IPython, you can even have all the mixed text/graphics output you get in a notebook.  But better than a notebook, the state of the REPL is obvious to the user (more on this later) and the steps the user has taken are documented.
 
 ![Two python REPLs](/images/repl.png)
 
