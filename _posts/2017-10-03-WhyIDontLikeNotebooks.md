@@ -3,15 +3,15 @@ layout: post
 title: Why I don’t like Jupyter Notebooks
 ---
 
-We’ve had a number of tickets recently asking about running Jupyter Notebooks on  Legion/Grace. Until the architecture of the Jupyter Notebook changes this will never be a good/safe idea.  This sparked a discussion which descended into an argument between James and myself on the internal Slack about whether it is appropriate to encourage new researchers to use Jupyter notebooks.
+We’ve had a number of tickets recently asking about running [Jupyter Notebooks](https://jupyter.org/) on  Legion/Grace. Until the architecture of the Jupyter Notebook changes this will never be a good/safe idea.  This sparked a discussion which descended into an argument between [James](https://twitter.com/jamespjh) and myself on the internal Slack about whether it is appropriate to encourage new researchers to use Jupyter notebooks.
 
 Because I like having the last word, I’m going to present James’ arguments first.  
 
-James’ first argument is that it’s a great tool for exploring with.  I agree, but it’s not the only tool. Python, like many languages, comes with a REPL.  Traditionally, that has been the tool for exploring things with.  It is no worse than the Notebook, particularly if you install an enhanced one like iPython with tab completion and all sorts of goodies.  If you install the QT version of iPython, you can even have all the mixed text/graphics output you get in a notebook.  But better than a notebook, the state of the REPL is obvious to the user (more on this later) and the steps the user has taken are documented.
+James’ first argument is that it’s a great tool for exploring with.  I agree, but it’s not the only tool. Python, like many languages, comes with a [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop).  Traditionally, that has been the tool for exploring things with.  It is no worse than the Notebook, particularly if you install an enhanced one like [iPython](https://ipython.org/install.html) with tab completion and all sorts of goodies.  If you install the QT version of iPython, you can even have all the mixed text/graphics output you get in a notebook.  But better than a notebook, the state of the REPL is obvious to the user (more on this later) and the steps the user has taken are documented.
 
 ![Two python REPLs](/images/repl.png)
 
-James’ second argument is reasonable: Jupyter notebooks are the easiest tool for practising Literate Programming in Python.  And I concede that this is true.  It’s quite nice having graphs mixed with your code + documentation.  
+James’ second argument is reasonable: Jupyter notebooks are the easiest tool for practising [Literate Programming](https://en.wikipedia.org/wiki/Literate_programming) in Python.  And I concede that this is true.  It’s quite nice having graphs mixed with your code + documentation.  
 
 But this single feature alone doesn’t outweigh the downsides.
 
@@ -92,7 +92,7 @@ I actually think a good start may be something similar to markdown with explicit
 
 ### 3) Abandon the idea of using HTTP/TCP/IP to access the notebooks.
 
-Much as it’s arguably bloaty and terrible, something like Github Electron would make a good stop-gap until the developers are able to move to another GUI toolkit.  Maybe a plugin for Atom?
+Much as it’s arguably bloaty and terrible, something like [Github Electron](https://github.com/electron/electron) would make a good stop-gap until the developers are able to move to another GUI toolkit.  Maybe a plugin for Atom?
 
 I think a good standard for a “graphical” terminal + editor mixing text and graphs would be helpful in a lot of areas.
 
