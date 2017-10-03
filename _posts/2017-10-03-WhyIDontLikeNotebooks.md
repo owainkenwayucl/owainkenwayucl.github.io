@@ -62,6 +62,8 @@ This brings a couple of big security problems.
 
 This risk is mitigated somewhat by most people running it on their single user laptops but that doesn’t preclude cross-site scripting bugs (same origin protects most of this but it’s notably absent for some modern xhttp request stuff).
 
+*(Over on twitter [Titus Brown](https://twitter.com/ctitusbrown) has pointed out that newer versions of the Jupyter Notebook software use token auth to improve things ssomemwhat.  Depending on the actions of the user it's still possible to leak the token to other users of the machine but a lot harder.)*
+
 *(related there are some really nasty things you can do with certain LISP interpreters when connected to Emacs via SLIME which also uses  TCP/IP)*
 
 ### b) It is possible to set up the server so that it runs on an external IP address.  
