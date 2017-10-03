@@ -40,9 +40,9 @@ x = 13
 
 What is the output from running the second block?  Well there are at least three possible options: (12, 13 and an error), depending on which other blocks have been executed beforehand.  Now this is a simple example but it gets much worse as soon as packages are involved, and with the widgets and sliders which let users interact with code which has dependencies which may not have been run yet.
 
-I think the moment that the problems were driven home to me was late last year helping my mother set up Julia Jupyter notebooks on her PC for a course she was doing (in her retirement she does a loot of MOOCs).
+I think the moment that the problems were driven home to me was late last year helping my mother set up Julia Jupyter notebooks on her PC for a course (in her retirement she does a lot of MOOCs).
 
-Due to the problems with Julia being not yet mature leading issues with loading packages/compatibility the whole thing descended into a mess which was extremely hard to debug because you had to make sure to have run the right boxes in the right order.
+Due to the problems with Julia being not yet mature leading to issues with loading packages/compatibility the whole thing descended into a mess which was extremely hard to debug because you had to make sure to have run the right boxes in the right order.
 
 *(In the end my mother resorted to JuliaBox along with most of the people on her course which worked fine for a month until the JuliaBox people updated the version of Julia they run replicating all the problems again).*
 
