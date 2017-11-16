@@ -80,3 +80,9 @@ This is a horror as it combines the previous problem with a vast amount of paper
 ### Not having a license at all
 
 If you don't provide a license I can't install it for the researchers and they get grumpy at me, even though it's your fault.
+
+## Automated tests
+
+The members of my team are experts at linking Linux programs. We are not experts at the science case that your application is solving.  It's very hard for us to look at a printout of fractionally different floating point numbers and decide if that's a significant difference or not.
+
+Please provide a simple to run test suite (`make check`?) that we can run to prove that our mix of libraries, compilers and CPU versions doesn't horribly break your package.  
