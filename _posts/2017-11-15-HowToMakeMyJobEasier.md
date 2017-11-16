@@ -65,7 +65,7 @@ The sole exception to this rule is Boost which is, itself, such a hassle to conf
 
 ## License your software correctly
 
-Licenses cause a lot of headache for us.  I strongly recommend that if you are giving your software away anyway you pick MIT, BSD or GPL licenses in preference for rolling your own as the latter sometimes requires me to contact the software purchasing team to scrutenise the terms.  You are not a lawyer, I am not a lawyer, let's leave drafting licenses to the lawyers.
+Licenses cause a lot of headache for us.  I strongly recommend that if you are giving your software away anyway you pick MIT, BSD or GPL licenses in preference for rolling your own as the latter sometimes requires me to contact the software purchasing team to scrutinise the terms.  You are not a lawyer, I am not a lawyer, let's leave drafting licenses to the lawyers.
 
 Here are some licensing things that are a real pain:
 
