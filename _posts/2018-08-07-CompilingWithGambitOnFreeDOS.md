@@ -3,7 +3,7 @@ layout: post
 title: Compiling in Gambit 3.0 on FreeDOS
 ---
 
-In my [previous post]() about FreeDOS tools I mentioned that I hadn't yet tried to get Gambit Scheme to compile `.scm` code to a stand-alone `.exe`.  There are a couple of things you need to do.
+In my [previous post](https://owainkenwayucl.github.io/2017/08/06/UsefulToolsFreeDOS.html) about FreeDOS tools I mentioned that I hadn't yet tried to get Gambit Scheme to compile `.scm` code to a stand-alone `.exe`.  There are a couple of things you need to do.
 
 1. If you've not installed to `C:\GAMBC`, set the environment variable `%GAMBCDIR` ro point to where you installed it.  This allows `gsc` to find `_gambc.c` which it needs to compile scheme to c.
 
