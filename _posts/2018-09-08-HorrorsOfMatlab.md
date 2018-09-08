@@ -73,7 +73,7 @@ I say out of nowhere, because it was coming out of somewhere.  After asking the 
 
 No.
 
-![Performance comparison](https://pbs.twimg.com/media/DmPqZ7fXgAEYxo4.png)
+![Performance comparison](/images/octave_speed.png)
 
 (Matlab 0.2 seconds, Octave 475 seconds)
 
