@@ -22,9 +22,11 @@ TSW on the XBox comes with three routes - Paddington <-> Reading, NEC New York a
 
 This might feel like not a lot, especially for £39 and to be honest it gets worse: TSW is significantly more restrictive than TS in the way it uses that limited content.  Whereas in TS you can run a variety of pre-made career/standard scenarios or put together any train you like out of the bits you have and run it down any route (electrification permitting), you do *not* have this freedom in TSW: You can play the scenarios they have provided (of which there are six career ones in the UK route) or play in "services" mode where each of the sets has a predefined set of services to run over a "real day" timetable.
 
-You can't grab the class 66, attach some rolling stock, set a route and rattle down the line.  You can't run the HST in New York.  There appears to be no scenario editor.  It's pretty dull.
+You can't grab the class 66, attach some rolling stock, set a route and rattle down the line.  You can't run the HST in New York.  You *really* can't do any of the weird consists one might put together with a locomotive and some rolling stock.  There appears to be no scenario editor.  It's pretty dull.
 
 Dovetail are also really pleased with their first person stuff, which is... pretty dull.  Most scenarios involve a certain amount of walking around stations or waiting for trains, often unnecessarily, with one, "West World" requiring you to commute for ~10 minutes as part of the mission.  I commute by train every day, and except for the line and this being a "Thames Turbo" 166 rather than my trusty friendly Networker 465/466 it accurately represents the tedium if not the smell of doing so.
+
+I don't know about anyone else but I feel like the point of a train simulator is to drive some trains, not to walk about a simulation of Reading station which is sorely lacking its Starbucks.
 
 It has voice acting for voice overs but.. who cares?
 
@@ -59,5 +61,7 @@ The lighting is good?
 ## This train terminates here
 
 So it was a pretty underwhelming experience overall.  Expensive, limited, buggy and clunky.  The XBox One is also terrible, but that's another discussion. I mean, it was so not engaging that I played Warframe most of the holiday instead.
+
+I honestly think you are much better off buying Train Simulator 2019.
 
 ![ACS-64](/images/tsw-acs.png)
