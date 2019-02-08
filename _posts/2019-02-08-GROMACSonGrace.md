@@ -72,7 +72,7 @@ So we should ask ourselves, why at 16 threads does it perform so well (although 
 
 ## Tuning PME by hand is a pain!
 
-Yes it is.  Weirdly, there’s a `-tunepme` option you can pass to mdrun but it doesn’t seem to do anything.  The documentation says it can fight with `-dlb` so you shouldn’t turn them both on at the same time, so I turned off `-dlb` and re-ran the OpenMP set.  This resulted in GROMACS allocating the same number of cores to the PP/PME split as with `-tunepme` off so the graph we get actually shows the effect of turning off dynamic load balancing instead.  Again we see a significant increase in performance at 16 threads/1 MPI rank per node, because of course GROMACS is no longer doing the PP/PME split.  In all my testing I found no evidence that `-tunepme` does anything.
+Yes it is.  Weirdly, there’s a `-tunepme` option you can pass to mdrun but it doesn’t seem to do anything.  The documentation says it can fight with `-dlb` so you shouldn’t turn them both on at the same time, so I turned off `-dlb` and re-ran the OpenMP set.  This resulted in GROMACS allocating the same number of cores to the PP/PME split as with `-tunepme` off so the graph we get actually shows the effect of turning off dynamic load balancing instead.  Again we see a significant increase in performance at 16 threads/1 MPI rank per node, because of course GROMACS is no longer doing the PP/PME split.  In all my testing I found no evidence that `-tunepme` does anything for MPI codes.
 
 ![GROMACS -tunepme vs -dlb](/images/grom_dlb_omp.png)
 
