@@ -78,4 +78,4 @@ Yes it is.  Weirdly, there’s a `-tunepme` option you can pass to mdrun but it 
 
 ## But *my* hybrid code does better than my MPI only implementation!
 
-Good for you!  It is cerain that there are algorithms for which it works, I have just yet to find one that I was actually using for something.
+Good for you!  It is certain that there are algorithms for which it works, I have just yet to find one that I was actually using for something.
