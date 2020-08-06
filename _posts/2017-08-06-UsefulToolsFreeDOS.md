@@ -11,6 +11,8 @@ By default, FreeDOS has packages for the Open Watcom C Compiler but what about F
 
 **Known good:** `open-watcom-f77-dos-1.9.exe` `3daf851a7916b6fd0d951af94b8c331975c6d522c393538fba05f3439cea8809`
 
+**Update - August 2020** You can also install a more modern DJGPP for a modern Fortran compiler.
+
 ## Scheme interpreter
 
 I've been playing with LISP and wanted something LISPy to play with on FreeDOS.  To run LISP on DOS most of your options are abandonware and therefore legally iffy.  After a couple of days searching I stumbled across [Gambit](http://gambitscheme.org/wiki/index.php/Main_Page), a scheme implementation by Marc Feeley at the University of Montreal.  It's LGPL/Apache 2.0 licensed (your choice) and while version 4.x has dropped explicit DOS support, version 3.0 works fine and binaries are available to download.  Unpack the .zip file (I put it in `c:\devel\gambit`) and add that directory to your `%PATH%`.  You can then run it by typing `gsi`. The package also contains a scheme->c translator which works with DJGPP although I've not tried it with the packages from FreeDOS yet.
