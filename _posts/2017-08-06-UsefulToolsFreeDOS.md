@@ -11,7 +11,7 @@ By default, FreeDOS has packages for the Open Watcom C Compiler but what about F
 
 **Known good:** `open-watcom-f77-dos-1.9.exe` `3daf851a7916b6fd0d951af94b8c331975c6d522c393538fba05f3439cea8809`
 
-**Update - August 2020** You can also install a more modern DJGPP for a modern Fortran compiler.
+**Update - August 2020:** You can also install a more modern DJGPP for a modern Fortran compiler.
 
 ## Scheme interpreter
 
