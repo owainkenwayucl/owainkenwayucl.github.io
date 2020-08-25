@@ -15,7 +15,7 @@ So what about all the other Android devices?
 
 Well they are not supported.
 
-What happens is in the month leading up to patch day, Google shares the patches it intends to make with its larger partners.  They then decide their own patching schedule. Samsung, for example, one of the largest manufacturers, [Samsung](https://security.samsungmobile.com/securityUpdate.smsb) says:
+What happens is in the month leading up to patch day, Google shares the patches it intends to make with its larger partners.  They then decide their own patching schedule. For example, one of the largest manufacturers, [Samsung](https://security.samsungmobile.com/securityUpdate.smsb) says:
 
 > “Samsung Mobile is releasing a maintenance release for major flagship models as part of monthly Security Maintenance Release (SMR) process. This SMR package includes patches from Google and Samsung.”
 
