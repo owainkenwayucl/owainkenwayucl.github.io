@@ -35,7 +35,7 @@ I want at this point to point out that it doesn’t have to be this way. I also 
 
 It’s clear to see why this is a problem – not only do consumers spend a lot of money when purchasing a device, but throw-away electronics are fast becoming an ecological disaster.
 
-The net result is whereas in the world of cellphones consumers are effectively renting their devices.
+The net result is in the world of cellphones consumers are effectively renting their devices.
 
 For example, I bought a Pixel 3 on release day. I got a bare phone partly because my cell provider didn’t carry Google devices, partly to avoid them getting in the way of updates.  The Pixel 3 cost £750.  Since it gets updates for 3 years, I am effectively renting it for £250 a year.  That’s a lot.  I’m still daily using PCs that are ten years old.  This will probably be my last Android phone because this is expensive compared to an iPhone. If iPhones get updates for five years, then they cost less per year, even if they initial outlay is larger.  Indeed the only reason I got a Pixel this time is that Apple cancelled the iPhone SE months before my Nexus 5X’s patching expired (the phone was still fine).  Now I can afford to pay more for an iPhone, but what if you can’t afford the one off expense?  Why is it that an acceptable level of security is “not for the poor”, both implied in the structure of the market and deliberately codified by companies like Samsung?
 
