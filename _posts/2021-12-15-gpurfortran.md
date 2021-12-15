@@ -32,7 +32,7 @@ You will then add the appropriate options to turn on compiler features to compil
 
 For this post I will be demonstrating snippets of code for our “canonical” Pi estimation example, a repo for which can be found here: https://github.com/UCL-RITS/pi_examples
 
-This code does an expensive and not very accurate numerical integration to estimate Pi, something that’s explained in the repository’s Readme.md.  What’s interesting from our perspective is this loop, which is extremely parallelisable:
+This code does an expensive and not very accurate numerical integration to estimate Pi, something that’s explained in the repository’s `Readme.md`.  What’s interesting from our perspective is this loop, which is extremely parallelisable:
 
 ```fortran
   s = 0d0
@@ -80,7 +80,7 @@ This will generate a `pi` binary for you to run on a node with a GPU.
 
 CUDA Fortran uses a technique that we’ll see for subsequent options – adding special comments or “directives” to your code to tell the compiler that if it supports this feature, it can generate code for it.  Instead of writing your code into a `.f90` file, you put it into a `.cuf` file.  If you use Vim, it probably will not recognise this as Fortran code so you will lose your syntax highlighting.
 
-You can fix this either by manually setting the syntax mode to Fortran, or adding the following to your ~/.vimrc
+You can fix this either by manually setting the syntax mode to Fortran, or adding the following to your `~/.vimrc`:
 
 ```vim
 " Cuda-Fortran
