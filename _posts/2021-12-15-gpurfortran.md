@@ -2,9 +2,6 @@
 layout: post
 title: Making use of the Nvidia HPC SDK to use GPUs from Fortran on Myriad
 ---
-# Making use of the Nvidia HPC SDK to use GPUs from Fortran on Myriad
-
-## Introduction – compilers and code
 
 If you have been around High Performance Computing for any serious period of time you will have heard about GPUs, usually in referent tones, that you have to learn a new programming langauge (CUDA) and become a master of arcane and terrible magicks to apply this to your application.  The good news is that for a long time, since the invention of OpenACC this has not been true, you could write code in Fortran like God intended and add directives and the PGI compilers would generate GPU code for you.  The problem being of course that the PGI compilers were commercial and cost a reasonable amount of money.  Some years ago, Nvidia bought PGI and last year made the rather amazing decision, after switching the backend to LLVM to make their compilers available for free.
 
