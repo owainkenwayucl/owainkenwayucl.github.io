@@ -48,6 +48,8 @@ This code does an expensive and not very accurate numerical integration to estim
   mypi = s * step
 ```
 
+Right - on to the GPU options.
+
 ## DO CONCURRENT
 
 A recent addition to the Fortran standard is `do concurrent` which allows you to tell any compiler that the iterations of a loop are independent (order does not matter) and that it can parallelise that loop.  The Nvidia compilers can use this to generate GPU code.
