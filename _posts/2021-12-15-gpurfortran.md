@@ -14,7 +14,7 @@ module remove compilers
 module load compilers/nvidia/hpc-sdk
 ```
 
-If you run module avail compilers/nvidia/ you’ll see the versions available – you want the most modern centrally installed version, at the time of writing 21.3 as that supports OpenMP on V100s and higher.
+If you run `module avail compilers/nvidia/` you’ll see the versions available – you want the most modern centrally installed version, at the time of writing 21.3 as that supports OpenMP on V100s and higher.
 
 Version 21.3 and higher support four different ways of accessing GPUs from Fortran:
 1. DO CONCURRENT
