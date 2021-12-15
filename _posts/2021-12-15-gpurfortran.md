@@ -3,9 +3,9 @@ layout: post
 title: Making use of the Nvidia HPC SDK to use GPUs from Fortran on Myriad
 ---
 
-If you have been around High Performance Computing for any serious period of time you will have heard about GPUs, usually in referent tones, that you have to learn a new programming langauge (CUDA) and become a master of arcane and terrible magicks to apply this to your application.  The good news is that for a long time, since the invention of OpenACC this has not been true, you could write code in Fortran like God intended and add directives and the PGI compilers would generate GPU code for you.  The problem being of course that the PGI compilers were commercial and cost a reasonable amount of money.  Some years ago, Nvidia bought PGI and last year made the rather amazing decision, after switching the backend to LLVM to make their compilers available for free.
+If you have been around High Performance Computing for any serious period of time you will have heard about GPUs, usually in reverent tones, that you have to learn a new programming langauge (CUDA) and become a master of arcane and terrible magicks to apply this to your application.  The good news is that for a long time, since the invention of OpenACC this has not been true, you could write code in Fortran like God intended and add directives and the PGI compilers would generate GPU code for you.  The problem being of course that the PGI compilers were commercial and cost a reasonable amount of money.  Some years ago, Nvidia bought PGI and last year made the rather amazing decision, after switching the backend to LLVM to make their compilers available for free.
 
-You can download the compilers for use on your own system for free from https://developer.nvidia.com/hpc-sdk but we are talking about Myriad here which is our centrally run HTC cluster and has a large number of GPUs attached in a range of generations from slightly geriatric P100s, to brand shiny new A100s and as part of the software stack, we have these compilers installed.
+You can download the compilers for use on your own system for free from [Nvidia]{https://developer.nvidia.com/hpc-sdk} but we are talking about Myriad here which is our centrally run HTC cluster and has a large number of GPUs attached in a range of generations from slightly geriatric P100s, to brand shiny new A100s and as part of the software stack, we have these compilers installed.
 
 You can switch out the default Intel compilers for the latest Nvidia ones by running:
 
@@ -30,7 +30,7 @@ nvfortran
 
 You will then add the appropriate options to turn on compiler features to compile the code.
 
-For this post I will be demonstrating snippets of code for our “canonical” Pi estimation example, a repo for which can be found here: https://github.com/UCL-RITS/pi_examples
+For this post I will be demonstrating snippets of code for our “canonical” Pi estimation example, a repo for which can be found here: [https://github.com/UCL-RITS/pi_examples]{https://github.com/UCL-RITS/pi_examples}
 
 This code does an expensive and not very accurate numerical integration to estimate Pi, something that’s explained in the repository’s `Readme.md`.  What’s interesting from our perspective is this loop, which is extremely parallelisable:
 
