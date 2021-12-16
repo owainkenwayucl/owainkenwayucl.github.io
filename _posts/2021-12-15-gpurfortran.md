@@ -78,6 +78,8 @@ nvfortran -O2 -stdpar -Minfo=accel -o pi pi.f90
 
 This will generate a `pi` binary for you to run on a node with a GPU.
 
+**Note** - it is a feature of the Nvidia compiler that in this instance it recognises that the `s = s +...` is a reduction.  Other compilers may not (specifically the Intel ones). Adding reductions to `do concurrent` is proposed for a future Fortran standard.
+
 ## CUDA Fortran
 
 CUDA Fortran uses a technique that we’ll see for subsequent options – adding special comments or “directives” to your code to tell the compiler that if it supports this feature, it can generate code for it.  Instead of writing your code into a `.f90` file, you put it into a `.cuf` file.  If you use Vim, it probably will not recognise this as Fortran code so you will lose your syntax highlighting.
