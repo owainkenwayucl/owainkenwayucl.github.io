@@ -186,4 +186,4 @@ As usual, this will give you a `pi` binary which you can run directly as you are
 
 ## Conclusions
 
-Well you can now write GPU code in Fortran and don't just have one option but are spoiled for choice.  In the end the best option is probably `do concurrent` for portability or OpenACC for performance and supported features on Nvidia hardware - OpenMP lags behind performance-wise (but is getting better with each release) and CUDA Fortran is too Nvidia-specifc.
+Well you can now write GPU code in Fortran and don't just have one option but are spoiled for choice.  In the long term the best option is probably `do concurrent` or OpenMP for portability.  In the short term, OpenACC for performance and supported features on Nvidia hardware - OpenMP lags behind performance-wise (but is getting better with each release) and CUDA Fortran is too Nvidia-specifc.
