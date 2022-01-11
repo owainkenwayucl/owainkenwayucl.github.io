@@ -60,7 +60,7 @@ Here we have to modify our loop syntax to use `do concurrent` instead of `do`.
   s = 0d0
   step = 1.0d0 / num_steps
 
-  do concurrent (i = 1: num_steps)
+  do concurrent (i = 1: num_steps) reduce(+:s)
     x = (i - 0.5d0) * step
     s = s + 4.0d0 / (1.0d0 + x*x)
   end do
@@ -114,6 +114,8 @@ You then compile the code with:
 ```
 nvfortran -O2 -Minfo=accel -cuda -gpu=cuda11.2 -o pi pi.cuf
 ```
+
+*Note* - the version of Cuda in that command will change with later versions of the toolkit - for example for 22.1 you should do `-gpu-cuda11.5` instead.
 
 Your code is now ready to run!
 
