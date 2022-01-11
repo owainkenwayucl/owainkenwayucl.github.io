@@ -115,7 +115,7 @@ You then compile the code with:
 nvfortran -O2 -Minfo=accel -cuda -gpu=cuda11.2 -o pi pi.cuf
 ```
 
-*Note* - the version of Cuda in that command will change with later versions of the toolkit - for example for 22.1 you should do `-gpu-cuda11.5` instead.
+*Note* - the version of Cuda in that command will change with later versions of the toolkit - for example for 22.1 you should do `-gpu=cuda11.5` instead.
 
 Your code is now ready to run!
 
