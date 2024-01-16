@@ -11,17 +11,17 @@ And so I thought I'd put this up here so that it's google-able.
 
 2. Install `slurmctld` on the "head" node, and `slurmd` on any compute nodes as well as `munge` on all nodes. On AlmaLinux 9 these are all in your repos.
 
-3. Generate a munge key with `create-munge-key` and copy it to all the nodes (`/etc/munge/munge.key').
+3. Generate a munge key with `create-munge-key` and copy it to all the nodes (`/etc/munge/munge.key`).
 
-4. Enable and start munge with systemctl.
+4. Enable and start `munge` with `systemctl`.
 
 5. Edit `/etc/slurm/slurm.conf` to make sure all the nodes are in it at the end. There should be *one* node name line - the default one in AlmaLinux has `localhost` in it so replace it with a comma separated list of compute nodes and their shape (number of cores). You also need to change the `SlurmctldHost` to an external interface on the "head" node.
 
 6. Make sure `/etc/slurm/slurm.conf` is identical on all nodes (shared filesystem can help here).
 
-7. Enable and start `slurmd` on each compute node.
+7. Enable and start `slurmd` on each compute node (with `systemctl`).
 
-8. Enable and start `slurmctld` on head node.
+8. Enable and start `slurmctld` on head node (with `systemctl`)..
 
 You should now be able to use `sinfo`/`squeue` etc and submit jobs.
 
